@@ -1,0 +1,76 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Baskervville|Roboto+Condensed&display=swap');
+*
+{
+
+
+
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    /* задали максимальную ширину */
+    max-width: 70%;
+    /* поставили по центру */
+    margin: 0 auto;
+    /* урбали точки в списке */
+    list-style: none;
+  }
+  
+  .nav-item {
+    padding: 10px 0;
+    /* позиционирование */
+    display: inline-block;
+    /* задаем ширину */
+    width: 24%;
+    /* cмещаем линк в центр элемента */
+    text-align: center;
+  }
+  
+  header {
+    background-color: aquamarine;
+  }
+  
+  .nav-link {
+    /* используем чтобы сбросить
+      стили ссылки */
+    text-decoration: none;
+    /* делаем буквы заглавными */
+    text-transform: uppercase;
+    color: teal;
+  }
+  
+  .nav-link:hover {
+    color: tomato;
+  }
+  
+  .card {
+    /* чтобы в рядок */
+    display: inline-block;
+    /* чтобы в не шире заданой ширины */
+    box-sizing: border-box;
+    /* заданая ширина (2 столблика) 100/2 - 1 */
+    width: 49%;
+    padding: 20px 40px;
+  }
+  
+  .img {
+      width: 100%;
+  }
+  
+  .containter {
+      width: 80%;
+      /* выравнивание по центру */
+      margin: 0 auto;
+  }
+  
+  .card-text {
+      font-family: 'Baskervville', serif;
+  }
+  
+  .card-title {
+      font-family: 'Baskervville', serif;
+  } 
